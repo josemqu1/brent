@@ -9,7 +9,6 @@ import handlebars from "express-handlebars";
 import morgan from "morgan";
 
 // Initialization
-// const { DB_USER, DB_PASS, DB_NAME, DB_URL, SESSION_SECRET } = config;
 const app = express();
 const PORT = process.env.PORT || 8080;
 
